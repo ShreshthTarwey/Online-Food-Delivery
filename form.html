@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELLO!</title>
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+            text-align: center;
+            
+        }
+        body{
+            align-items: center;
+            background-image: url("https://tse2.mm.bing.net/th?id=OIP.GANII6cLRXCif906WXNMjgHaHa&pid=Api&P=0&h=180");
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            text-align: center;
+
+        }
+        form{
+            text-align: center;
+        }
+        div{
+            background-color: rgba(137, 43, 226, 0.434);
+            border-radius: 10px;
+        }
+        input[type="submit"],input[type="reset"]{
+            background-color: rgba(165, 42, 42, 0.543);
+            border-radius: 20px;
+            color: black;
+            border: none;
+            transition: scale(1.2);
+            transform:scale(1,2)
+        }
+        .btn{
+    background: rgb(160, 93, 218);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <form action="abc.php">
+        <h2>Order Now</h2>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Naam daal">
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email">
+        </select>
+        <label for="Address">Address:</label>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your Address"></textarea>
+        <label for="Pincode">Pin code:</label>
+        <input type="pincode" placeholder="Enter your pin code"><br>
+        <!--<label for="submit"></label>
+        <input type="submit" value="Submit">
+        <label for="reset"></label>
+        <input type="reset" value="Reset">-->
+        <button type="submit" class="btn"><a href = "Order.html">Order</a></button><br>
+    <button type="reset" class="btn">Reset</button>
+    </div>
+    
+</form>
+</body>
+</html>
